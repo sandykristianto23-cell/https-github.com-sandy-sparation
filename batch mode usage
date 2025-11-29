@@ -1,0 +1,2 @@
+- Upload multiple images in the UI; backend processes sequentially.
+- If calling the API directly, send an array of images/URLs; expect streamed or batched responses per design.
