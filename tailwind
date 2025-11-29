@@ -1,0 +1,34 @@
+PS C:\spar> 
+PS C:\spar> npm install
+npm : The term 'npm' is not recognized as 
+the name of a cmdlet, function, script 
+file, or operable program. Check the 
+spelling of the name, or if a path was 
+included, verify that the path is correct 
+and try again.
+At line:1 char:1
++ npm install
++ ~~~
+    + CategoryInfo          : ObjectNotFoun 
+   d: (npm:String) [], CommandNotFoundExce   
+  ption
+    + FullyQualifiedErrorId : CommandNotFou  
+   ndException
+
+PS C:\spar> npm run dev
+npm : The term 'npm' is not recognized as 
+the name of a cmdlet, function, script       
+file, or operable program. Check the
+spelling of the name, or if a path was       
+included, verify that the path is correct    
+and try again.
+At line:1 char:1
++ npm run dev
++ ~~~
+    + CategoryInfo          : ObjectNotFoun  
+   d: (npm:String) [], CommandNotFoundExce   
+  ption
+    + FullyQualifiedErrorId : CommandNotFou 
+   ndException
+
+PS C:\spar>
