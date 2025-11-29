@@ -1,0 +1,2 @@
+SAM_ONNX_MODEL_PATH=models\sam_vit_b.onnx
+REM_BMG_MODEL=u2net
