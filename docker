@@ -1,0 +1,18 @@
+PS C:\spar> 
+PS C:\spar> docker build -t yourname/sparation:cpu .
+docker : The term 'docker' is not 
+recognized as the name of a cmdlet, 
+function, script file, or operable program. 
+Check the spelling of the name, or if a 
+path was included, verify that the path is 
+correct and try again.
+At line:1 char:1
++ docker build -t yourname/sparation:cpu .
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFoun  
+   d: (docker:String) [], CommandNotFoundE   
+  xception
+    + FullyQualifiedErrorId : CommandNotFou  
+   ndException
+
+PS C:\spar> 
