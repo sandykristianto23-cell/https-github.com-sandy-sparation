@@ -1,0 +1,19 @@
+PS C:\spar> 
+PS C:\spar> docker run --rm -p 8000:8000 -v ${PWD}\models:/app/models -e SAM_ONNX_MODEL_PATH=/app/models/sam_vit_b.onnx yourname/sparation:cpu
+docker : The term 'docker' is not 
+recognized as the name of a cmdlet, 
+function, script file, or operable program. 
+Check the spelling of the name, or if a 
+path was included, verify that the path is 
+correct and try again.
+At line:1 char:1
++ docker run --rm -p 8000:8000 -v
+${PWD}\models:/app/models -e SAM_ONNX ...    
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFoun  
+   d: (docker:String) [], CommandNotFoundE   
+  xception
+    + FullyQualifiedErrorId : CommandNotFou  
+   ndException
+
+PS C:\spar> 
